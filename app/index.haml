@@ -68,7 +68,7 @@
 
     %section.main-info.container
       %h2.main-title__general Vitalmed Clínica dental 
-      %p En Clínica dental Vitalmed entregamos servicios Odontologicos de calidad a precios accesibles para todas las familias. Realizamos nuestro trabajo con responsabilidad, profesionalismo y pasión.
+      %p.container En Clínica dental Vitalmed entregamos servicios Odontologicos de calidad a precios accesibles para todas las familias. Realizamos nuestro trabajo con responsabilidad, profesionalismo y pasión.
 
     %section.main-service.container
       .masonry-with-columns
@@ -136,9 +136,89 @@
                     %p Puedes tener tus dientes más blancos en una sesión, desde los $34.990
             .main-service__img{:style => "background:url(https://images.unsplash.com/photo-1468493858157-0da44aaf1d13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80)"}
 
-    %section.main-parallax
-      .overlay-parallax    
 
+
+    %section.main-promo.container
+      %h2.main-title__general Promociones
+      %p.text-align ¡Enterate y aprovecha nuestras mejores ofertas! 
+      .main-promo__content
+        .main-promo__grid
+          .main-promo__body
+            %h3 ¡Sólo por agosto!
+            .main-promo__content__body
+              %span $
+              %p 9.900
+              %ul
+                %li Limpieza dental boca completa
+                %li incluye eliminación del sarro a través de un ultrasonido
+                %li Eliminación de las manchas amarillas simples( generadas por café, té, cigarro) a través de la profilaxis
+            %a.btn-promo{:href => "#"} Contactar  
+
+          .main-promo__body
+            %h3 ¡Super rebaja!
+            .main-promo__content__body
+              %span $
+              %p 90.00
+              %ul
+                %p Ahorra cancelando el plan anual de ortodoncia.
+                %li  Estudio inicial
+                %li Instalación de los frenillos(ambas arcadas) 
+                %li controles durante un año fecha cronómetro.
+            %a.btn-promo{:href => "#"} Contactar    
+
+          .main-promo__body
+            %h3 ¡Ortodoncia para todos!
+            .main-promo__content__body
+              %span $
+              %p 29.990
+              %ul
+                %li Instalación de frenillos costo $0
+                %li Sólo cancelas mensualidades de $29.990
+                %li no se cancelada nada extra por instalación de los frenillos
+                %li Llámanos para agendar tu evaluación gratis.
+            %a.btn-promo{:href => "#"} Contactar  
+    %section.main-parallax
+      .overlay-parallax  
+      .main-horario__content.container
+        .horario__body 
+          %h2.main-title__general.main-title__general--start Horario de servicio
+          %p Visítanos
+        .horario__body 
+          %i.fa.fa-phone
+          %p Lunes - Viernes
+          %span 10:00 a. m. - 20:00 p. m.
+        .horario__body 
+          %i.fa.fa-phone 
+          %p Sábado
+          %span 9:00 a. m. - 13:00 p. m.
+        .horario__body 
+          %i.fa.fa-phone 
+          %p Domingo
+          %span cerrado
+          
+    %footer.main-footer
+      .container
+        .main-footer__content
+          .main-footer__contact
+            %a.mr-3{ href: '#' }
+              %i.fa.fa-phone 
+              %span (+569) 0 123 45 67
+            %a{ href: '#' }
+              %i.fa.fa-envelope
+              %span Contacto@fuerzadeventaremota.cl
+          .main-footer__redes
+            %a{ href: '#' }
+              %i.fa.fa-facebook 
+            %a{ href: '#' }
+              %i.fa.fa-twitter
+            %a{ href: '#' }
+              %i.fa.fa-linkedin
+
+
+      
+
+
+   
           
       / Modal
       #exampleModal.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "exampleModalLabel", :role => "dialog", :tabindex => "-1"}
@@ -154,6 +234,7 @@
               %button.btn.btn-secondary{"data-dismiss" => "modal", :type => "button"} Close
               %button.btn.btn-primary{:type => "button"} Save changes
 
+        
     %script{src: "assets/js/jquery.min.js"}
     %script{src: "assets/js/bootstrap.min.js"}
     %script{src: "assets/js/slick.min.js"}

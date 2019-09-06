@@ -6533,7 +6533,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .justify-content-around {
-  -ms-flex-pack: distribute !important;
+  -ms-flex-pack: docribute !important;
   justify-content: space-around !important;
 }
 
@@ -6583,7 +6583,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .align-content-around {
-  -ms-flex-line-pack: distribute !important;
+  -ms-flex-line-pack: docribute !important;
   align-content: space-around !important;
 }
 
@@ -6704,7 +6704,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
   }
 
   .justify-content-sm-around {
-    -ms-flex-pack: distribute !important;
+    -ms-flex-pack: docribute !important;
     justify-content: space-around !important;
   }
 
@@ -6754,7 +6754,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
   }
 
   .align-content-sm-around {
-    -ms-flex-line-pack: distribute !important;
+    -ms-flex-line-pack: docribute !important;
     align-content: space-around !important;
   }
 
@@ -6876,7 +6876,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
   }
 
   .justify-content-md-around {
-    -ms-flex-pack: distribute !important;
+    -ms-flex-pack: docribute !important;
     justify-content: space-around !important;
   }
 
@@ -6926,7 +6926,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
   }
 
   .align-content-md-around {
-    -ms-flex-line-pack: distribute !important;
+    -ms-flex-line-pack: docribute !important;
     align-content: space-around !important;
   }
 
@@ -7048,7 +7048,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
   }
 
   .justify-content-lg-around {
-    -ms-flex-pack: distribute !important;
+    -ms-flex-pack: docribute !important;
     justify-content: space-around !important;
   }
 
@@ -7098,7 +7098,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
   }
 
   .align-content-lg-around {
-    -ms-flex-line-pack: distribute !important;
+    -ms-flex-line-pack: docribute !important;
     align-content: space-around !important;
   }
 
@@ -7220,7 +7220,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
   }
 
   .justify-content-xl-around {
-    -ms-flex-pack: distribute !important;
+    -ms-flex-pack: docribute !important;
     justify-content: space-around !important;
   }
 
@@ -7270,7 +7270,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
   }
 
   .align-content-xl-around {
-    -ms-flex-line-pack: distribute !important;
+    -ms-flex-line-pack: docribute !important;
     align-content: space-around !important;
   }
 
