@@ -277,7 +277,6 @@ section {
 }
 
 .navbar .contact {
-  background: #0057b3;
   padding: 20px;
   color: #fff;
   display: inline-grid;
@@ -288,6 +287,14 @@ section {
 
 .navbar .contact .nav-link {
   color: #fff;
+  background: #0057b3;
+  border-radius: 8px;
+  display: flex;
+}
+
+.navbar .contact .fa {
+  font-size: 1rem;
+  margin: 3px 10px 3px 0;
 }
 
 .navbar .telephone {
@@ -641,7 +648,6 @@ section {
   right: 0;
   bottom: 0;
   background: linear-gradient(180deg, rgba(2, 0, 36, 0) 0%, #0057b3 100%);
-  opacity: .5;
 }
 
 .main-promo__content h3 {

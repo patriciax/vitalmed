@@ -37,11 +37,12 @@
           %i.fa.fa-phone{"aria-hidden" => "true"}
           %a.nav-link{:href => "#"} 965526991
         %li.nav-item.contact{"data-target" => "#exampleModal", "data-toggle" => "modal"}
-          %i.fa.fa-address-book-o{"aria-hidden" => "true"}
-          %a.nav-link{:href => "#"} Reserva
-        %ul.navbar-contact
-      
-           
+         
+          %a.nav-link{:href => "#"} 
+            %i.fa.fa-calendar-plus-o{"aria-hidden" => "true"}
+            Reserva
+            
+
 
 
     .main-banner
@@ -54,7 +55,9 @@
               .main-banner__description
                 %p Realizamos nuestro trabajo con responsabilidad profesionalismo y pasión.
                 %span.nav-item.contact{"data-target" => "#exampleModal", "data-toggle" => "modal"}
-                  %a.btn-reserva{:href => "#"} Reserva
+                  %a.btn-reserva{:href => "#"} 
+                    %i.fa.fa-calendar-plus-o{"aria-hidden" => "true"}
+                    Reserva
                
           .main-banner__img
             %img{ :src => "https://images.unsplash.com/photo-1486049252259-45184399c5b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=800"}/
@@ -66,7 +69,10 @@
               .main-banner__description
                 %p 
                 %span.nav-item.contact{"data-target" => "#exampleModal", "data-toggle" => "modal"}
-                %a.btn-reserva{:href => "#"} Reserva
+                %a.btn-reserva{:href => "#"}
+                  %i.fa.fa-calendar-plus-o{"aria-hidden" => "true"}
+                  Reserva
+                 
           .main-banner__img
             %img{ :src => "https://images.unsplash.com/photo-1544819616-8b86befe568c?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"}/
 
@@ -188,15 +194,15 @@
           %h2.main-title__general.main-title__general--start Horario de servicio
           %p Visítanos
         .horario__body 
-          %i.fa.fa-phone
+          %i.fa.fa-calendar
           %p Lunes - Viernes
           %span 10:00 a. m. - 20:00 p. m.
         .horario__body 
-          %i.fa.fa-phone 
+          %i.fa.fa-calendar
           %p Sábado
           %span 9:00 a. m. - 13:00 p. m.
         .horario__body 
-          %i.fa.fa-phone 
+          %i.fa.fa-calendar
           %p Domingo
           %span cerrado
           

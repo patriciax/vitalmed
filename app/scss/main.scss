@@ -37,7 +37,7 @@ section {
   }
   
   .contact {
-    background: $blues;
+    // background: $blues;
     padding: 20px;
     color: #fff;
     display: inline-grid;
@@ -47,7 +47,15 @@ section {
     
     .nav-link {
       color: #fff;
+      background: #0057b3;
+    border-radius: 8px;
+    display: flex;
     }
+
+    .fa {
+      font-size: 1rem;
+      margin: 3px 10px 3px 0;
+  }
   }
 
   .telephone {
@@ -427,7 +435,7 @@ section {
     right: 0;
     bottom: 0;
     background: linear-gradient(180deg, rgba(2, 0, 36, 0) 0%, #0057b3 100%);
-    opacity: .5;
+   
   }
 }
 
