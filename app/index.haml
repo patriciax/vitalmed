@@ -47,9 +47,6 @@
 
 
     .main-banner
-      %svg#wave{:height => "100", :preserveaspectratio => "none", :version => "1.1", :viewbox => "0 0 100 100", :width => "100%", :xmlns => "http://www.w3.org/2000/svg"}
-        %path{:d => "M0 0 C 50 100 80 100 100 0 Z"}
-
       .main-banner__content
         .main-banner__item
           .mask
@@ -58,6 +55,8 @@
                 %p Profesionalismo, salud y confianza
               .main-banner__description
                 %p Realizamos nuestro trabajo con responsabilidad profesionalismo y pasión.
+                %span.nav-item.contact{"data-target" => "#exampleModal", "data-toggle" => "modal"}
+                  %a.btn-reserva{:href => "#"} Reserva
                
           .main-banner__img
             %img{ :src => "https://images.unsplash.com/photo-1486049252259-45184399c5b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=800"}/
@@ -68,6 +67,8 @@
                 %p Realizamos nuestro trabajo con responsabilidad profesionalismo y pasión.
               .main-banner__description
                 %p 
+                %span.nav-item.contact{"data-target" => "#exampleModal", "data-toggle" => "modal"}
+                %a.btn-reserva{:href => "#"} Reserva
           .main-banner__img
             %img{ :src => "https://images.unsplash.com/photo-1544819616-8b86befe568c?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"}/
 
@@ -272,10 +273,7 @@
               %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
                 %span{"aria-hidden" => "true"} ×
             .modal-body
-              \...Modal cobtact
-            .modal-footer
-              %button.btn.btn-secondary{"data-dismiss" => "modal", :type => "button"} Close
-              %button.btn.btn-primary{:type => "button"} Save changes
+              \...Modal contact
 
       / Modal mapa
       #exampleModalCenter.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "modal-map", :role => "dialog", :tabindex => "-1"}

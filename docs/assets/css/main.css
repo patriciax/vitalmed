@@ -250,10 +250,6 @@ body {
   font-family: Poppins,sans-serif;
 }
 
-.fixed-top {
-  position: absolute;
-}
-
 section {
   padding: 100px 0 0 0;
 }
@@ -417,9 +413,13 @@ section {
   margin: 15px 0 0 0;
 }
 
+.main-banner .mask .main-banner__text .main-banner__description p {
+  margin-bottom: 3rem;
+}
+
 .main-banner .main-banner__img {
   width: 100%;
-  height: 100vh;
+  height: 105vh;
 }
 
 .main-banner .main-banner__img img {
@@ -646,7 +646,7 @@ section {
 
 .main-promo__content h3 {
   position: relative;
-  background-color: #3988d7;
+  background-color: #0057b3;
   color: #fff;
   font-size: 1rem;
   line-height: 50px;
@@ -829,7 +829,7 @@ section {
 }
 
 .main-footer__redes a {
-  color: #3988d7;
+  color: #0057b3;
   font-size: 2rem;
   margin-right: 10px;
 }
@@ -882,7 +882,7 @@ section {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  background: #3988d7;
+  background: #0057b3;
   color: #fff;
   align-items: center;
 }
@@ -924,7 +924,7 @@ section {
 }
 
 .btn-map {
-  background: #3988d7;
+  background: #0057b3;
   padding: 12px 15px;
   width: 130px;
   color: #fff;
@@ -935,9 +935,22 @@ section {
   border: 1px solid #d3e1f6;
 }
 
+.btn-reserva {
+  background: #ffffff;
+  padding: 10px 50px;
+  width: 130px;
+  color: #0057b3;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: .9rem;
+  border: none;
+}
+
 .btn-map:hover {
   background: #fff;
-  color: #3988d7;
+  color: #0057b3;
 }
 
 .main-footer__redes {
