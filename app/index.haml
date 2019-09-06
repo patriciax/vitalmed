@@ -9,6 +9,8 @@
     %link{rel: "stylesheet", href:"assets/css/slick.css"}/
     %link{rel: "stylesheet", href:"assets/css/slick-theme.css"}/
     %link{rel: "stylesheet", href:"assets/css/font-awesome.css"}/
+    %link{rel: "stylesheet", href:"assets/fonts/flaticon.css"}/
+
     %link{rel: "stylesheet", href:"https://unpkg.com/boxicons@2.0.3/css/boxicons.min.css' rel='stylesheet"}/
 
   %body
@@ -45,6 +47,9 @@
 
 
     .main-banner
+      %svg#wave{:height => "100", :preserveaspectratio => "none", :version => "1.1", :viewbox => "0 0 100 100", :width => "100%", :xmlns => "http://www.w3.org/2000/svg"}
+        %path{:d => "M0 0 C 50 100 80 100 100 0 Z"}
+
       .main-banner__content
         .main-banner__item
           .mask
@@ -83,9 +88,9 @@
               .hover
                 .overlay
                   .items.head
-                    %i.fa.fa-shopping-cart
+                    %span.flaticon-teeth
                     %p Las restauraciones son la rehabilitación estética del diente, para mantener la correcta salud dental.Realizate tus restauraciones desde los $21.510
-            .main-service__img{:style => "background:url(https://images.unsplash.com/photo-1468493858157-0da44aaf1d13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80)"}
+            .main-service__img{:style => "background:url(http://ultrawhite.com.ar/img/img-tratamientos_restauraciones-01.jpg)"}
            
         %div.service
           %div.main-service__card
@@ -96,7 +101,7 @@
               .hover
                 .overlay
                   .items.head
-                    %i.fa.fa-shopping-cart
+                    %span.flaticon-dentist
                     %p Lucir una sonrisa perfecta es posible pagando sólo $29.990 mensual
             .main-service__img{:style => "background:url(https://images.unsplash.com/photo-1468493858157-0da44aaf1d13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80)"}
         %div.service
@@ -108,9 +113,9 @@
               .hover
                 .overlay
                   .items.head
-                    %i.fa.fa-shopping-cart
+                    %span.flaticon-dentist-1
                     %p Lucir una sonrisa perfecta es posible pagando sólo $29.990 mensual.
-            .main-service__img{:style => "background:url(https://images.unsplash.com/photo-1468493858157-0da44aaf1d13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80)"}
+            .main-service__img{:style => "background:url(https://c2.staticflickr.com/6/5484/30530019044_65c7d864fc_z_d.jpg)"}
         %div.service
           %div.main-service__card
             .main-mask__service
@@ -122,7 +127,7 @@
                   .items.head
                     %i.fa.fa-shopping-cart
                     %p Mantener una buena higiene bucal desde los $9.900
-            .main-service__img{:style => "background:url(https://images.unsplash.com/photo-1468493858157-0da44aaf1d13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80)"}
+            .main-service__img{:style => "background:url(https://clinicasrodriguezalacreu.com/wp-content/uploads/tratamiento-endodoncia.jpg)"}
         %div.service
           %div.main-service__card
             .main-mask__service
@@ -132,9 +137,9 @@
               .hover
                 .overlay
                   .items.head
-                    %i.fa.fa-shopping-cart
+                    %span.flaticon-dentist-1
                     %p Puedes tener tus dientes más blancos en una sesión, desde los $34.990
-            .main-service__img{:style => "background:url(https://images.unsplash.com/photo-1468493858157-0da44aaf1d13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80)"}
+            .main-service__img{:style => "background:url(https://www.odontolightbh.com.br/wp-content/uploads/2018/08/Clareamento-Dental-%C3%A0-Laser-e1533923203485.png)"}
 
 
 
@@ -198,21 +203,59 @@
           
     %footer.main-footer
       .container
+        %h2.main-title__general Contactar
+        %p.text-align 
         .main-footer__content
           .main-footer__contact
-            %a.mr-3{ href: '#' }
-              %i.fa.fa-phone 
-              %span (+569) 0 123 45 67
-            %a{ href: '#' }
-              %i.fa.fa-envelope
-              %span Contacto@fuerzadeventaremota.cl
-          .main-footer__redes
-            %a{ href: '#' }
-              %i.fa.fa-facebook 
-            %a{ href: '#' }
-              %i.fa.fa-twitter
-            %a{ href: '#' }
-              %i.fa.fa-linkedin
+            .main-footer__info
+              .main-footer__about
+                .main-footer__subtitle
+                 
+          
+
+              .main-footer__content-contact
+                .main-footer__dates
+                  %a.mr-3{:href => "tel:+569 965526991", :target => "_blank"}
+                    %i.fa.fa-circle-o
+                    %span Ahumada 11, of 407. Santiago Centro. Metro U.Chile 
+                    %ul
+                      %li 965526991
+                  %a{:href => "tel:+569 965526991"}
+                    %i.fa.fa-circle-o
+                    %span Las bellotas 199 of 101, Providencia. Metro los Leones. 
+                    %ul
+                      %li 946485283
+                .main-footer__redes
+                  %a{ href: 'https://www.facebook.com/ClinicaVitalmed/' }
+                    %i.fa.fa-facebook 
+                  %a{ href: 'https://twitter.com/vitalmed?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor' }
+                    %i.fa.fa-twitter
+                  %a{ href: 'https://www.youtube.com/playlist?list=UUmL2UQ6DBdQ0iOFc7LXJ2Jw' }
+                    %i.fa.fa-youtube
+                %span.btn-map{"data-target" => "#exampleModalCenter", "data-toggle" => "modal"}
+                  Ubicanos
+          .main-footer__form
+            .main-footer__subtitle
+            
+            %form
+              .form-group
+                %input#formGroupExampleInput.form-control{:placeholder => "Nombre", :type => "text"}/
+              .form-group
+                %input#formGroupExampleInput2.form-control{:placeholder => "Email", :type => "text"}/
+              .form-group
+                %input#formGroupExampleInput2.form-control{:placeholder => "Asunto", :type => "text"}/
+              .form-group
+                %input#formGroupExampleInput2.form-control{:placeholder => "Mensaje", :type => "text"}/
+              .btn-box.float-right
+                %button.btn-map
+                  Enviar
+      .main-footer__copy
+        %p
+          Todos los derechos Reservados
+        %a{:href => "http://cmarketing.cl/"}  
+          Contact Marketing
+          %img(src="assets/img/Logo_white.png" alt="")/
+
 
 
       
@@ -220,7 +263,7 @@
 
    
           
-      / Modal
+      / Modal cobtact
       #exampleModal.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "exampleModalLabel", :role => "dialog", :tabindex => "-1"}
         .modal-dialog{:role => "document"}
           .modal-content
@@ -229,10 +272,24 @@
               %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
                 %span{"aria-hidden" => "true"} ×
             .modal-body
-              \...
+              \...Modal cobtact
             .modal-footer
               %button.btn.btn-secondary{"data-dismiss" => "modal", :type => "button"} Close
               %button.btn.btn-primary{:type => "button"} Save changes
+
+      / Modal mapa
+      #exampleModalCenter.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "modal-map", :role => "dialog", :tabindex => "-1"}
+        .modal-dialog.modal-dialog-centered{:role => "document"}
+          .modal-content
+            .modal-header
+              %h5#exampleModalLongTitle.modal-title A su disposición cuando nos necesite
+              %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+                %span{"aria-hidden" => "true"} ×
+            .modal-body
+              %iframe{:allowfullscreen => "", :frameborder => "0", :height => "450", :src => "https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d32155409.480664782!2d-84.14567923276638!3d-10.324200147322166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d11.6843759!2d-70.186673!4m5!1s0x9662c5a127070d79%3A0x5f0822a1dd4e03bc!2sPaseo%20Ahumada%2011%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana%2C%20Chile!3m2!1d-33.4431533!2d-70.6503662!5e0!3m2!1ses-419!2sve!4v1567784262631!5m2!1ses-419!2sve", :style => "border:0;", :width => "600"}
+
+        
+
 
         
     %script{src: "assets/js/jquery.min.js"}

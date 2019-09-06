@@ -522,6 +522,10 @@ section {
   background: linear-gradient(180deg, rgba(2, 0, 36, 0) 0%, #0057b3 100%);
 }
 
+.masonry-with-columns .main-mask__service--grad {
+  background: #0057b3;
+}
+
 .masonry-with-columns .main-description__service {
   color: #fff;
   bottom: 0;
@@ -621,12 +625,12 @@ section {
 }
 
 .main-parallax {
-  background-image: url("https://images.unsplash.com/photo-1468493858157-0da44aaf1d13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80");
+  background-image: url("http://www.clinicadentalorive.com/wp-content/uploads/2015/02/Clinica-dental-orive-e1423004103497.jpg");
   background-size: cover;
   height: 36vh;
   background-attachment: fixed;
   position: relative;
-  background-position: 50% -140px;
+  background-position: center;
   margin-top: 100px;
 }
 
@@ -750,4 +754,200 @@ section {
 .horario__body {
   color: white;
   z-index: 9;
+}
+
+.main-footer iframe {
+  overflow: hidden;
+  width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-footer__map {
+    display: none;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-footer__map {
+    display: none;
+  }
+}
+
+.main-footer__content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
+}
+
+.main-footer__content ul {
+  list-style: none;
+  display: flex;
+  padding-left: 25px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-footer__content {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-footer__content {
+    grid-template-columns: 100%;
+  }
+}
+
+.main-footer__content-contact, .main-footer__dates {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-footer__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.main-footer__contact a {
+  color: gray;
+  font-size: 17px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.main-footer__contact a:hover {
+  transition: 0.3s ease-in-out;
+  color: #33b3e0;
+  text-decoration: none;
+}
+
+.main-footer__contact a i {
+  margin-right: 10px;
+}
+
+.main-footer__redes a {
+  color: #3988d7;
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.main-footer__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-footer__title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.main-footer__subtitle {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #33b3e0;
+}
+
+.main-footer__description {
+  color: gray;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  width: 100%;
+  margin: 0 0px 20px;
+  height: 45px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #F6F7F9;
+  color: #33b3e0;
+  font-size: 14px;
+}
+
+.form-control:focus {
+  background: rgba(57, 136, 215, 0.1);
+  border-color: transparent !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem transparent !important;
+}
+
+.main-footer__copy {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background: #3988d7;
+  color: #fff;
+  align-items: center;
+}
+
+.main-footer__copy p {
+  margin: 0;
+  padding: 10px;
+}
+
+.main-footer__copy a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-footer__copy a:hover {
+  text-decoration: none;
+  color: #33495f;
+}
+
+.main-footer__copy img {
+  width: 5%;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .main-footer__form {
+    margin-top: 30px;
+  }
+}
+
+.main-footer__logo {
+  width: 150px;
+  margin-left: -20px;
+  margin-top: 20px;
+  display: none;
+}
+
+.main-footer__logo img {
+  width: 100%;
+}
+
+.btn-map {
+  background: #3988d7;
+  padding: 12px 15px;
+  width: 130px;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  font-size: .9rem;
+  border: 1px solid #d3e1f6;
+}
+
+.btn-map:hover {
+  background: #fff;
+  color: #3988d7;
+}
+
+.main-footer__redes {
+  margin-bottom: 30px;
+}
+
+.main-footer {
+  margin-top: 100px;
+}
+
+.flaticon-teeth:before {
+  font-size: 5rem;
 }
