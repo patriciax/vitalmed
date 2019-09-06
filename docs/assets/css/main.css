@@ -272,6 +272,10 @@ section {
   transition: .3s ease-in-out;
 }
 
+.navbar .container {
+  padding: 0px 100px;
+}
+
 .navbar .contact {
   background: #0057b3;
   padding: 20px;
