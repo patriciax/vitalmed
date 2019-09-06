@@ -410,11 +410,10 @@ section {
 .main-parallax {
   background-image: url('http://www.clinicadentalorive.com/wp-content/uploads/2015/02/Clinica-dental-orive-e1423004103497.jpg');
   background-size: cover;
-  height: 36vh;
   background-attachment: fixed;
   position: relative;
   background-position: center;
-
+  padding: 50px;
   margin-top: 100px;
 
   .overlay-parallax  {
