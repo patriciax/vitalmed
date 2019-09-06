@@ -890,11 +890,13 @@ section {
 .main-footer__copy p {
   margin: 0;
   padding: 10px;
+  font-size: .8rem;
 }
 
 .main-footer__copy a {
   color: #fff;
   text-decoration: none;
+  font-size: .8rem;
 }
 
 .main-footer__copy a:hover {
