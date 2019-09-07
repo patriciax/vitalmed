@@ -500,6 +500,7 @@ section {
   width: 100%;
   overflow: hidden;
   position: relative;
+  border-radius: 10px;
 }
 
 .masonry-with-columns .main-service__card .main-service__title {
@@ -526,6 +527,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
+  border-radius: 10px;
   background: linear-gradient(180deg, rgba(2, 0, 36, 0) 0%, #0057b3 100%);
 }
 
@@ -547,6 +549,7 @@ section {
   left: 0;
   bottom: 0;
   margin: auto;
+  border-radius: 10px;
 }
 
 .masonry-with-columns .overlay {
@@ -556,6 +559,7 @@ section {
   color: #fff;
   opacity: 0;
   transition: all 0.5s;
+  border-radius: 10px;
 }
 
 .masonry-with-columns .items {
@@ -587,23 +591,6 @@ section {
   transition: all .5s;
 }
 
-.masonry-with-columns .cart {
-  font-size: 12px;
-  opacity: 0;
-  letter-spacing: 1px;
-  font-family: 'Lato', sans-serif;
-  transform: translateY(40px);
-  transition: all 0.7s;
-}
-
-.masonry-with-columns .cart i {
-  font-size: 16px;
-}
-
-.masonry-with-columns .cart span {
-  margin-left: 10px;
-}
-
 .masonry-with-columns .hover:hover .overlay {
   opacity: 1;
 }
@@ -611,7 +598,7 @@ section {
 .masonry-with-columns .hover:hover .overlay .head {
   transform: translateY(0px);
   position: absolute;
-  bottom: 0;
+  bottom: 50px;
 }
 
 .masonry-with-columns .hover:hover .overlay hr {
@@ -724,7 +711,7 @@ section {
 .main-promo__content__body ul li {
   padding: 7px 15px;
   color: #6e6e6e;
-  font-weight: 100;
+  font-weight: 300;
   font-size: .9rem;
 }
 
@@ -793,7 +780,7 @@ section {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .main-footer__content {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
   }
 }
 

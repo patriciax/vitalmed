@@ -5,7 +5,9 @@
     %meta{content: "width=device-width, initial-scale=1.0", name:"viewport"}/
     %title Clinica dental Vitalmed
     %link{rel: "stylesheet", href:"assets/css/bootstrap.min.css"}/
+    
     %link{rel: "stylesheet", href:"assets/css/main.css"}/
+    %link{rel: "stylesheet", href:"assets/css/responsive.css"}/
     %link{rel: "stylesheet", href:"assets/css/slick.css"}/
     %link{rel: "stylesheet", href:"assets/css/slick-theme.css"}/
     %link{rel: "stylesheet", href:"assets/css/font-awesome.css"}/
@@ -20,9 +22,9 @@
         .container
           .main-brand
             %a.navbar-brand{:href => "#"}
-              %img#iso{:src => "assets/img/logo.jpeg"}/
+              %img#iso{:src => "assets/img/logo-bg.png"}/
             %button.navbar-toggler.p-0.border-0{"data-toggle" => "offcanvas", :type => "button"}
-              %span.navbar-toggler-icon
+              %span.navbar-toggler-icon.fa.fa-phone
           .navbar-collapse.offcanvas-collapse
             %ul.navbar-nav.ml-auto
               %li.nav-item
@@ -69,9 +71,10 @@
               .main-banner__description
                 %p 
                 %span.nav-item.contact{"data-target" => "#exampleModal", "data-toggle" => "modal"}
-                %a.btn-reserva{:href => "#"}
-                  %i.fa.fa-calendar-plus-o{"aria-hidden" => "true"}
-                  Reserva
+                %span.nav-item.contact{"data-target" => "#exampleModal", "data-toggle" => "modal"}
+                  %a.btn-reserva{:href => "#"} 
+                    %i.fa.fa-calendar-plus-o{"aria-hidden" => "true"}
+                    Reserva
                  
           .main-banner__img
             %img{ :src => "https://images.unsplash.com/photo-1544819616-8b86befe568c?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"}/
@@ -260,7 +263,7 @@
         %a{:href => "http://cmarketing.cl/"}  
           Contact Marketing
           %img(src="assets/img/Logo_white.png" alt="")/
-
+    
 
 
       
