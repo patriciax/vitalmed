@@ -396,7 +396,7 @@ section {
 .main-banner .mask .main-banner__text .main-banner__title p {
   padding: 0;
   color: #fff;
-  font-size: 3rem;
+  font-size: 3.4rem;
   font-weight: 800;
   line-height: 1;
   margin: 0;
@@ -958,4 +958,33 @@ section {
 
 .flaticon-teeth:before {
   font-size: 5rem;
+}
+
+.localizacion {
+  position: absolute;
+  top: 80%;
+  width: 30%;
+  left: 8%;
+  color: #fff;
+  display: flex;
+}
+
+.localizacion .fa-map-marker:before {
+  content: "\f041";
+  font-size: 1.5rem;
+  color: #0057b3;
+}
+
+.localizacion .fa {
+  margin-top: -20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.localizacion p {
+  font-size: 1rem;
+  line-height: 1.3;
+  margin-left: 10px;
 }
