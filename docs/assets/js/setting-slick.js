@@ -10,8 +10,7 @@ $('.main-banner__content').slick({
   responsive: [{
       breakpoint: 1200,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
+      
         infinite: true,
         dots: false
       }
@@ -19,8 +18,7 @@ $('.main-banner__content').slick({
     {
       breakpoint: 900,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
+
       }
     },
     {
